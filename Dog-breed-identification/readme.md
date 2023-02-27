@@ -14,3 +14,6 @@
 ## tricks
 
 * eval时，对image Resize(256) -> CenterCrop(224),会使val_loss下降0.06左右
+
+## score
+最终提交得分0.39382，与验证集的loss十分接近，对应验证集的acc为87%。依据验证集可以大致估计，最终Top1预测准确率在87%。
